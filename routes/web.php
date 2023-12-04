@@ -22,3 +22,8 @@ Route::group(['prefix' => 'contacts', 'namespace' => 'Contact'], function () {
     Route::get('/create', 'CreateController')->name('contact.create');
     Route::post('/', 'StoreController')->name('contact.store');
 });
+
+Route::group(['prefix' => 'comments', 'namespace' => 'Comment'], function () {
+    Route::get('/', 'IndexController')->name('comment.index');
+    Route::post('/', 'StoreController')->name('comment.store');
+});

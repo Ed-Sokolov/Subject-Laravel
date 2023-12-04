@@ -12,6 +12,7 @@
                     <div class="navbar-nav fs-5 text-uppercase">
                         <a class="nav-link" href="{{ route('contact.create') }}">New contact</a>
                         <a class="nav-link" href="{{ route('contact.index') }}">Contacts</a>
+                        <a class="nav-link" href="{{ route('comment.index') }}">Comments</a>
                     </div>
                 </div>
             </div>
